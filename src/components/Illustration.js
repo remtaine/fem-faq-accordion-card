@@ -5,8 +5,8 @@ import DesktopBG from '../images/desktop/bg-pattern-desktop.svg';
 
 function Illustration() {
   return (
-    <div className="lg:shrink-0 flex relative">
-        <div className="relative overflow-hidden h-full flex items-center">
+    <div className="absolute -translate-y-1/2 lg:-translate-y-0 w-1/2 lg:relative lg:shrink-0 flex ">
+        <div className="relative lg:overflow-hidden h-full flex items-center">
             <img src={DesktopBG} alt="" className="absolute h-auto -translate-x-[45%] -translate-y-[5%] scale-150" />
             <img src={DesktopIllustration} alt="" className="-translate-x-[20%] " />
             {/* <img src={DesktopBox} alt="" className="absolute left-0 -translate-x-[70%]" /> */}
