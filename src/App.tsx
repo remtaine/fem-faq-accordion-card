@@ -1,4 +1,5 @@
-import React, { useState, FC} from 'react';
+import React, {FC} from 'react';
+// import React, { useState, FC} from 'react';
 import Accordion from './components/Accordion';
 
 import Footer from './components/Footer';
@@ -6,7 +7,7 @@ import Footer from './components/Footer';
 import Illustration from './components/Illustration';
 
 function App() {
-  const [currentlyToggledAccordion, setCurrentlyToggledAccordion] = useState(null);
+  // const [currentlyToggledAccordion, setCurrentlyToggledAccordion] = useState(null);
   let untoggleOthers = (accordion: FC) => {
     // if (currentlyToggledAccordion !== null) {
     //   setCurrentlyToggledAccordion(null);
