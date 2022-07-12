@@ -19,7 +19,7 @@ function App() {
       <div className="w-screen h-screen fixed -z-50" style={{background: 'linear-gradient(180deg, rgba(175,103,233,1) 30%, rgba(101,101,231,1) 100%)' }}></div>
 
       <main className="min-h-[calc(100vh-2rem)] flex justify-center items-center">
-        <article className="flex flex-col lg:flex-row gap-10 bg-fem-neutral-300 min-h-[500px] rounded-3xl shadow-2xl my-4 mx-6">
+        <article className="flex flex-col md:flex-row gap-4 bg-neutral-50 min-h-[500px] rounded-3xl shadow-2xl my-4 mx-6">
           <Illustration/>
           <Accordion parentFunction={untoggleOthers}/>
           

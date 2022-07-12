@@ -10,13 +10,13 @@ function AccordionItem(props) {
   };
   
   return (
-    <section className="w-[350px] border-b-[1px] border-fem-neutral-200 border-opacity-20">
-      <button onClick={toggleAccordion} className={"text-sm py-2 accordion w-full flex gap-4 justify-between duration-300 hover:text-fem-primary-200 " + (isOpened ? "font-bold text-fem-primary-100" : "")}>
+    <section className="w-[270px] md:w-[350px] border-b-[1px] border-fem-neutral-200 border-opacity-20">
+      <button onClick={toggleAccordion} className={"text-[0.7rem] md:text-sm py-2 accordion w-full flex gap-1 md:gap-4 justify-between duration-300 ease-in-out hover:text-fem-primary-200 " + (isOpened ? "font-bold text-fem-primary-100" : "")}>
         {props.title} 
-        <div className='flex items-center'><img src={ButtonImg} alt="" className={"duration-300 shrink-0 " + (isOpened ? "rotate-180" : "")} /></div>
+        <div className='flex items-center'><img src={ButtonImg} alt="" className={"duration-300 ease-in-out shrink-0 " + (isOpened ? "rotate-180" : "")} /></div>
       </button>
 
-      <div className={"text-[0.7rem] text-fem-neutral-200 font-light panel w-full mb-4 overflow-hidden " + 
+      <div className={"text-[0.6rem] md:text-[0.7rem] text-fem-neutral-200 font-light panel w-5/6 md:w-full mb-4 overflow-hidden " + 
       (isOpened ? "" : "hidden")}>
         {props.children}
       </div>

@@ -3,7 +3,7 @@ import AccordionItem from '../components/AccordionItem';
 
 function Accordion({parentFunction}) {
   return (
-    <div className="flex flex-col gap-1 text-sm justify-center mx-auto lg:mr-20 py-12">
+    <div className="flex flex-col gap-1 text-sm justify-center  my-4 mx-6 md:mx-auto md:mr-20 py-12">
         <h1 className="text-3xl font-bold mb-4">FAQ</h1>
         <AccordionItem parentFunction={parentFunction} title="How many team members can I invite?">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</AccordionItem>
         
